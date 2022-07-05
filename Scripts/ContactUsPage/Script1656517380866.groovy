@@ -18,3 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://bobs.run')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Navigation/a_Contact'))
+
+WebUI.verifyTextPresent('info@bobs.run', false)
+
+WebUI.closeBrowser()
+
