@@ -18,3 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://bobs.run')
+
+WebUI.verifyElementPresent(findTestObject('PageTitle'), 0)
+
