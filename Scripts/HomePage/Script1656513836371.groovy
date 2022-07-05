@@ -19,5 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://bobs.run')
 
-WebUI.verifyElementPresent(findTestObject('PageTitle'), 0)
+WebUI.maximizeWindow()
+
+WebUI.verifyTextPresent('WE ARE ALL BOBS', false)
+
+WebUI.closeBrowser()
 

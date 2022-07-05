@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Tests,Chrome 103.0.5060.114,,,2022-07-05 15:57:51,2022-07-05 15:58:24,32.413s,FAILED
+,,,,,,,
+Test Cases/AboutPage,Chrome 103.0.5060.114,,,2022-07-05 15:57:51,2022-07-05 15:57:59,7.479s,PASSED
+"openBrowser(""https://bobs.run"")",Chrome 103.0.5060.114,,,2022-07-05 15:57:52,2022-07-05 15:57:56,4.689s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-05 15:57:56,2022-07-05 15:57:57,0.147s,PASSED
+"click(findTestObject(""Navigation/a_About""))",Chrome 103.0.5060.114,,,2022-07-05 15:57:57,2022-07-05 15:57:58,1.183s,PASSED
+"verifyTextPresent(""WE RUN FOR YOU"", false)",Chrome 103.0.5060.114,,,2022-07-05 15:57:58,2022-07-05 15:57:58,0.545s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-05 15:57:58,2022-07-05 15:57:59,0.605s,PASSED
+,,,,,,,
+Test Cases/ContactUsPage,Chrome 103.0.5060.114,,,2022-07-05 15:57:59,2022-07-05 15:58:06,7.396s,FAILED
+"openBrowser(""https://bobs.run"")",Chrome 103.0.5060.114,,,2022-07-05 15:57:59,2022-07-05 15:58:04,4.640s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-05 15:58:04,2022-07-05 15:58:04,0.122s,PASSED
+"click(findTestObject(""Navigation/ContactLink""))",Chrome 103.0.5060.114,,,2022-07-05 15:58:04,2022-07-05 15:58:05,0.942s,PASSED
+"verifyTextPresent(""info@bobs.run"", false)",Chrome 103.0.5060.114,,,2022-07-05 15:58:05,2022-07-05 15:58:06,1.471s,FAILED
+,,,,,,,
+Test Cases/HomePage,Chrome 103.0.5060.114,,,2022-07-05 15:58:06,2022-07-05 15:58:12,5.569s,PASSED
+"openBrowser(""https://bobs.run"")",Chrome 103.0.5060.114,,,2022-07-05 15:58:07,2022-07-05 15:58:11,4.183s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-05 15:58:11,2022-07-05 15:58:11,0.128s,PASSED
+"verifyTextPresent(""WE ARE ALL BOBS"", false)",Chrome 103.0.5060.114,,,2022-07-05 15:58:11,2022-07-05 15:58:11,0.414s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-05 15:58:11,2022-07-05 15:58:12,0.594s,PASSED
+,,,,,,,
+Test Cases/SignUpPage,Chrome 103.0.5060.114,,,2022-07-05 15:58:12,2022-07-05 15:58:18,5.769s,FAILED
+"openBrowser(""https://bobs.run"")",Chrome 103.0.5060.114,,,2022-07-05 15:58:12,2022-07-05 15:58:16,3.998s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-05 15:58:16,2022-07-05 15:58:16,0.135s,PASSED
+"click(findTestObject(""SignUpButton""))",Chrome 103.0.5060.114,,,2022-07-05 15:58:16,2022-07-05 15:58:17,0.350s,PASSED
+"verifyTextPresent(""""Enter Name"""", false)",Chrome 103.0.5060.114,,,2022-07-05 15:58:17,2022-07-05 15:58:18,1.072s,FAILED
+,,,,,,,
+Test Cases/VolunteerPage,Chrome 103.0.5060.114,,,2022-07-05 15:58:18,2022-07-05 15:58:24,5.966s,FAILED
+"openBrowser(""https://bobs.run"")",Chrome 103.0.5060.114,,,2022-07-05 15:58:18,2022-07-05 15:58:22,4.474s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-05 15:58:22,2022-07-05 15:58:23,0.132s,PASSED
+"click(findTestObject(""VolunteerButton""))",Chrome 103.0.5060.114,,,2022-07-05 15:58:23,2022-07-05 15:58:23,0.562s,PASSED
+"verifyTextPresent(""""Enter Name"""", false)",Chrome 103.0.5060.114,,,2022-07-05 15:58:23,2022-07-05 15:58:24,0.558s,FAILED
