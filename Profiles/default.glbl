@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Results of running a test case (ex. Pass, Fail, Error)</description>
+      <initValue>''</initValue>
+      <name>TestResult</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
