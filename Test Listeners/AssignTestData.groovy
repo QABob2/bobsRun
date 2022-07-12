@@ -30,6 +30,7 @@ class AssignTestData {
 	@AfterTestCase
 	def assignTestData(TestCaseContext testCaseContext) {
 		GlobalVariable.TestResult = testCaseContext.testCaseStatus;
+		WS.sendRequest(findTestObject('PostTestResults'), FailureHandling.CONTINUE_ON_FAILURE);
 		print('\nThis test: ' + GlobalVariable.TestResult+'\n');
 	}
 }

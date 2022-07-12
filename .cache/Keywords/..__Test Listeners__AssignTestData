@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "DA26C64285EDE314F223BC1CB8ED059B",
+  "keywordFileContentHash": "7547D6FB21516722D217B4DD9573C288",
   "keywordClasses": [
     {
       "name": "AssignTestData",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
